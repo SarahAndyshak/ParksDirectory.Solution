@@ -33,7 +33,7 @@ dotnet tool install --global dotnet-ef --version 6.0.0
 1. Clone this repo.
 2. Open the terminal and navigate to this project's production directory called "ParksDirectory".
 3. Within the production directory "ParksDirectory", create two new files: `appsettings.json` and `appsettings.Development.json`.
-4. Within `appsettings.json`, put in the following code. Make sure to replacing the `uid` ("YOUR-USER-NAME-HERE")and `pwd` ("YOUR-PASSWORD-HERE") values in the MySQL database connection string with your own username and password for MySQL.
+4. Within `appsettings.json`, put in the following code. Make sure to replace the `database` (YOUR-DATABASE-NAME-HERE), `uid` ("YOUR-USER-NAME-HERE"), and `pwd` ("YOUR-PASSWORD-HERE") values in the MySQL database connection string with your own database name, username, and password for MySQL.
 
 ```json
 {
@@ -45,7 +45,7 @@ dotnet tool install --global dotnet-ef --version 6.0.0
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;database=planetary_dictionary;uid=YOUR-USER-NAME-HERE;pwd=YOUR-PASSWORD-HERE;"
+    "DefaultConnection": "Server=localhost;Port=3306;database=YOUR-DATABASE-NAME-HERE;uid=YOUR-USER-NAME-HERE;pwd=YOUR-PASSWORD-HERE;"
   }
 }
 ```
