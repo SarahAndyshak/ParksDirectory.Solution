@@ -14,7 +14,7 @@
 
 ## Description
 
-An API for creating webpages about national and state parks, monuments, and forests. 
+An API for creating webpages about national and state parks, monuments, and forests. The [Parks Explorer MVC site](https://github.com/SarahAndyshak/ParksExplorer.Solution) consumes this API.
 
 ## How To Run This Project
 
